@@ -1,0 +1,12 @@
+// 引入vant样式
+@import 'vant/lib/index.css';
+@import './reset.scss';
+#app {
+    width: 100%;
+    min-height: 100vh;
+  
+    > .van-overlay {
+      top: 46px;
+    }
+  }
+  
